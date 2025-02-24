@@ -1,6 +1,6 @@
 .global _start
 
-.equ UART_BASE, 0x10000000
+.equ UART_BASE, 0x10000500  # Base address of the UART1 device.
 .equ UART_THR,  0x00  # Transmit Holding Register
 .equ UART_LSR,  0x05  # Line Status Register
 .equ UART_LSR_THRE, 0x20  # THR Empty bit
